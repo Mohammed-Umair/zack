@@ -1,0 +1,348 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  position: relative;
+  /* display: none; */
+}
+/* @media (max-width: 600px) {
+  #main {
+    display: block;
+  }
+} */
+
+.nav {
+  width: auto;
+  height: 100px;
+  background-color: rgba(26, 25, 25, 0.2);
+  display: flex;
+  top: 12px;
+}
+.logo {
+  background-image: url(./logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95px;
+  height: 95px;
+  border: solid black;
+  border-radius: 20px;
+}
+.logoname {
+  font-size: 50px;
+  margin: 20px 10px;
+  font-style: italic;
+  color: black;
+}
+.anchor {
+  margin: 30px 40px;
+
+  font-size: 30px;
+  display: flex;
+}
+.anc {
+  padding: 0px 15px;
+  margin-left: 10px;
+  text-decoration: none;
+  border: solid black;
+  border-radius: 15px;
+  background-color: chartreuse;
+  /* text-align: center; */
+}
+.anc:hover {
+  background-color: cyan;
+  color: black;
+}
+.anc:active {
+  color: red;
+}
+.search input {
+  border: solid lightyellow;
+  border-radius: 10px 0px 0px 10px;
+  background-color: lightgray;
+  margin: 30px 0px;
+  padding: 10px;
+}
+#btn {
+  border: solid lightyellow;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  margin: 30px 0px;
+  background-color: orangered;
+}
+#btn:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.image {
+  width: auto;
+  height: 500px;
+  background-image: url(./kashmir\ background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+h2 {
+  text-align: center;
+  width: auto;
+  height: 20px;
+  padding: 40px;
+  color: white;
+  font-size: 25px;
+}
+.heading {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 130px;
+  left: 480px;
+  text-align: center;
+  justify-items: center;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 30px;
+  color: rgb(241, 245, 2);
+}
+#an {
+  width: 50x;
+  height: 50px;
+  background-color: rgb(12, 238, 227);
+  border: solid white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#an:hover {
+  background-color: cyan;
+  color: black;
+}
+#an:active {
+  color: red;
+}
+.search-bar {
+  background-color: rgb(9, 1, 58);
+  color: white;
+  height: 60px;
+  width: auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.search-bar input {
+  background-color: rgb(9, 1, 58);
+  color: white;
+  border: solid white;
+  padding: 10px;
+  margin: 10px 7px;
+}
+#btn1 {
+  border: solid lightyellow;
+  border-radius: 5px;
+  background-color: orangered;
+  padding: 10px;
+}
+#btn1:hover {
+  background-color: cyan;
+  color: black;
+}
+.cards {
+  width: auto;
+  height: 700px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+b {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: yellow;
+}
+#click:hover {
+  color: blue;
+}
+.crd1 {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  margin: 5px 5px;
+  background-image: url(./Gulmarg\ gondala.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.crd2 {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  margin: 5px 5px;
+  background-image: url(./Dal\ lake.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.crd3 {
+  width: 250px;
+  height: 300px;
+  /* background-color: maroon; */
+  margin: 5px 5px;
+}
+.crd4 {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  margin: 5px 5px;
+  background-image: url(./pari-mahal.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.crd5 {
+  width: 250px;
+  height: 300px;
+  /* background-color: maroon; */
+  margin: 5px 5px;
+}
+.crd6 {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  margin: 5px 5px;
+  background-image: url(./aru-city.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.crd7 {
+  width: 250px;
+  height: 300px;
+  /* background-color: maroon; */
+  margin: 5px 5px;
+}
+.crd8 {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  margin: 5px 5px;
+  background-image: url(./tluip\ garden.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.crd9 {
+  width: 250px;
+  height: 300px;
+  /* background-color: maroon; */
+  margin: 5px 5px;
+}
+.crd10 {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  margin: 5px 5px;
+  background-image: url(./Apharwat\ Peak.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.para {
+  width: auto;
+  height: 400px;
+  background-color: rgb(179, 247, 247);
+}
+h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+p {
+  font-size: 30px;
+  font-family: cursive;
+}
+.footer {
+  height: 300px;
+  width: auto;
+  display: flex;
+  background-color: rgb(109, 250, 250);
+  border-bottom: 50px solid rgb(157, 224, 157);
+}
+.logo1 {
+  background-image: url(./logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 130px;
+  border: solid black;
+
+  border-radius: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+}
+.logoname1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: -20px -10px -80px 0px;
+  font-style: italic;
+  color: black;
+}
+.dumm {
+  width: 50px;
+  height: 20px;
+  /* background-color: blue; */
+}
+.suport {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* padding-left: 150px; */
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+.travelo {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.email {
+  width: 600px;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  /* padding: 50px; */
+}
+.mail {
+  padding: 13px 50px;
+  background-color: black;
+  color: white;
+}
+.button {
+  padding: 5px 50px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border: solid red;
+}
